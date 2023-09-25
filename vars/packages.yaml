@@ -1,0 +1,76 @@
+---
+download_url: "http://localhost/bwstack514/"
+
+packages:
+  tibrv:
+    - name: "TIB_rv_8.6.0_linux_x86_64.zip"
+      silent_file: "TIB_rv_8.6.0_linux_x86_64.silent"
+      version: "8.6.0"
+  tibrv_hotfix:
+    - name: "TIB_rv_8.6.0_HF-001_linux_x86_64.zip"
+      silent_file: ""
+      version: "8.6.0_HF-001"
+  tra:
+    -  name: "TIB_TRA_5.11.3_linux_x86_64.zip"
+       silent_file: "TIB_TRA_5.11.3_linux_x86_64.silent"
+       version: "5.11.3"
+  tibco_sunec_331:
+    - name: product_tibco_sunec_1.8.0.331_linux_x86_64.zip
+      silent_file: ""
+      version: "1.8.0_331"
+  tra_hotfix:
+    - name: "TIB_TRA_5.11.3_HF-002_linux_x86_64.zip"
+      silent_file: "TIB_TRA_5.11.3_HF-002_linux_x86_64.silent"
+      version: "5.11.3_HF-002"
+  tibco_sunec_371:
+    - name: product_tibco_sunec_1.8.0.371_linux_x86_64.zip
+      silent_file: ""
+      version: "1.8.0_371"
+  bw:
+    - name: "TIB_BW_5.14.1_linux26gl23_x86_64.zip"
+      silent_file: "TIB_BW_5.14.1_linux26gl23_x86_64.silent"
+      version: "5.14.1"
+  bw_hotfix:
+    -  name: "TIB_BW_5.14.1_HF-002.zip"
+       silent_file: "TIB_BW_5.14.1_HF-002.silent"
+       version: "5.14.1_HF-002"
+  ems:
+    - name: "TIB_ems_8.6.0_linux_x86_64.zip"
+      silent_file: "TIB_ems_8.6.0_linux_x86_64.silent"
+      version: "8.6.0"
+  ems_hotfix:
+    - name: "TIB_ems_8.6.0_HF-013.zip"
+      silent_file: "TIB_ems_8.6.0_HF-013.silent"
+      version: "8.6.0_HF-013"
+  as:
+    - name: "TIB_activespaces_2.4.2_linux_x86_64.zip"
+      silent_file: "TIB_activespaces_2.4.2_linux_x86_64.silent"
+      version: "2.4.2"
+  as_hotfix:
+    - name: "TIB_activespaces_2.4.2_HF-001_linux_x86_64.zip"
+      silent_file: "TIB_activespaces_2.4.2_HF-001_linux_x86_64.silent"
+      version: "2.4.2_HF-001"
+  bw_plugin_as:
+    - name: "TIB_bwpluginactivespaces_2.2.0_linux26gl23_x86_64.zip"
+      silent_file: "TIB_bwpluginactivespaces_2.2.0_linux26gl23_x86_64.silent"
+      version: "2.2.0"
+  bw_plugin_mq:
+    - name: "TIB_bwpluginmq_7.8.0_linux26gl23_x86_64.zip"
+      silent_file: "TIB_bwpluginmq_7.8.0_linux26gl23_x86_64.silent"
+      version: "7.8.0"
+  bw_plugin_ipe:
+    - name: "TIB_ip-tech-pi_11.8.0_linux_x86_64.tar.gz"
+      silent_file: "TIB_ip-tech-pi_11.8.0_linux_x86_64.silent"
+      version: "11.8.0"
+  db_drivers:
+    - name: "TIB_dbdrivers_2.0.6_linux_x86_64.zip"
+      silent_file: "TIB_dbdrivers_2.0.6_linux_x86_64.silent"
+      version: "2.0.6"
+  hawk:
+    - name: ""
+      silent_file: ""
+      version: "6.2.1"
+  admin:
+    - name: "TIB_TIBCOAdmin_5.11.3_linux_x86_64.zip"
+      silent_file: "TIB_TIBCOAdmin_5.11.3_linux_x86_64.silent"
+      version: "5.11.3"

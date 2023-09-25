@@ -1,0 +1,12 @@
+---
+- name: Simple Test Playbook
+  gather_facts: false
+  hosts: localhost
+  vars_files:
+    - ../vars/packages.yaml
+
+  tasks:
+    - name: debug
+      ansible.builtin.debug: 
+        msg: "{{download_url}}{{ item.name }}"
+      loop:  "{{ packages.bw }}"
