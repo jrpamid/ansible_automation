@@ -1,0 +1,9 @@
+tibco_home_base: /opt/tibco/
+mqm_base: /opt/mqm
+tibco_utils_path: /opt/tibco/utilities
+tibco_certs_path: /opt/tibco/utilities/security/certificates
+tibco_trustedstore_path: /opt/tibco/utilities/security/certificates/trustedstore
+tibco_identirystore_path: /opt/tibco/utilities/security/certificates/identitystore
+tibco_scripts_path: /opt/tibco/utilities/scripts
+tibco_java_home:
+tibco_admin_home:
